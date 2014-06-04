@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b95b15c-bdd9-4b6e-a7c2-0b1786b148ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styling.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/videos/Gameplay_Example.webm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Part1_Battle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/headerbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wesnoth-1.10-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wesnoth-1.10-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wesnoth-1.10-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wesnoth-1.10-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/wesnoth-logo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styling.css" afterPath="$PROJECT_DIR$/styling.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dws1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,26 +34,7 @@
     <favorites_list name="dws1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="88" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6456693" vertical-offset="40" max-vertical-offset="675">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styling.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styling.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -64,7 +54,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="80" />
-    <option name="y" value="97" />
+    <option name="y" value="22" />
     <option name="width" value="1352" />
     <option name="height" value="795" />
   </component>
@@ -112,6 +102,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dws1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dws1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="videos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dws1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dws1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -124,6 +142,13 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/videos" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -174,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="97" width="1352" height="795" extended-state="0" />
+    <frame x="80" y="22" width="1352" height="795" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -215,14 +240,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styling.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="37" column="19" selection-start="603" selection-end="603" vertical-scroll-proportion="0.82589287" vertical-offset="0" max-vertical-offset="672">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="88" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6456693" vertical-offset="40" max-vertical-offset="675">
+        <state line="47" column="79" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.5905512" vertical-offset="330" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
