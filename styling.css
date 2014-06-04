@@ -37,3 +37,8 @@ header {
 span {
     display: block;
 }
+#footer {
+    clear: both;
+    display: block;
+    width: 100%;
+}
