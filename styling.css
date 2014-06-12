@@ -1,0 +1,44 @@
+body {
+    width: 960px;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    background-image: url("images/headerbg.jpg");
+    color: #FFFFFF;
+}
+a:link {
+    color: #FF0000;
+}
+header {
+    background-image: url("images/headerbg.jpg");
+    color: white;
+    padding: 0px;
+}
+.align-center {
+    margin-left: 350px;
+    margin-right: auto;
+    width: 30%
+}
+.Left {
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+.Middle {
+    width: 450px;
+    float: left;
+    margin: 10px;
+}
+.Right {
+    width: 250px;
+    float: left;
+    margin: 10px;
+    overflow: scroll;
+}
+span {
+    display: block;
+}
+#footer {
+    clear: both;
+    display: block;
+    width: 100%;
+}
