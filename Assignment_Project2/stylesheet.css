@@ -1,0 +1,92 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color:#FFF;
+    background-color:#000;
+    background-image: url("images/headerbg.jpg");
+    background-position:center center;
+    background-repeat:repeat;
+} 
+/* Ensures background image - and replacement color in case of background image-loss */
+/* I chose white for the text color to create at minimum of 70% contrast between text and background.  Background is stone grey. */
+a { 
+    color:#C0C0C0;
+}
+a:visited {
+    color:#00FF99;
+}
+a:hover {
+    color:#008000;
+}
+a:active {
+    color:#FF0000;
+}
+/* Provides specific color-scheme to links - namely to demonstrate to user, those visited, hovered, and active */
+
+.wrapper {
+         width:90%;
+         border-left:none;
+         border-right:none;
+         margin: 2px;
+         padding: 3px;
+         border: hidden;
+}
+/* Use only 70% of the actual page value - to me this helps overcome some initial resizing concerns and allows for rapid
+debugging for a variety of monitors with minimal implementation.  A final product would remove the width: 90%. */
+.wrapper div {
+         display: inline-block;
+         vertical-align: middle;
+} 
+/* I need the entire "main" wrapper
+*/
+.column-left { 
+         float: left;
+         width: 20%;
+         line-height: 50px; /* line height provides "hack" appearance that the floats did not break-up the center column */
+}
+/* Although one can technical avoid the float through more structured HTML placement - float allows the break-up
+around the inline elements and the non, again often for different screen sizes.  This makes it easier to handle one's
+Main body up-front instead of reading from "left-to-right" order in development.
+*/
+.column-left ul {
+         list-style-type: square;
+}
+.column-right {
+         float: right;
+         width: 25%;
+         line-height: 50px;
+}
+.column-center {
+         display: inline-block;
+         width: 45%;
+         margin: auto;
+}
+.column-center h1 {
+         text-align: center;
+         text-shadow: 2px 3px #C6C6C6
+}
+.column-center h2, h3, h4, p {
+         text-align: justify;
+}
+.column-center div {
+         border: 2px solid;
+         border-radius: 5px;
+}
+/* provide inline-block in order to center this "box" inside of the other two columns.  Creating a three-column layout.
+Three column layouts are easy for most to comprehend, as it divides up "instant-access" data from information that is meant
+to be read on a given page.
+*/
+.wrapper_header, .wrapper_footer {
+         text-align: center;
+         margin:auto;
+}
+/* we can stack the header/footer variants - as they are the same values - just in different places. */
+sample_image {
+         opacity: 0.8;
+}
+/* providing opacity to "sample" images will give the user a better mental-queue that the images can be clicked, even
+before mousing over them. */
